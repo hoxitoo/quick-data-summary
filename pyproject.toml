@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quick-data-summary"
+version = "0.1.0"
+description = "Generate a clean summary report for CSV datasets."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["pandas>=2.2.0,<3.0.0"]
+
+[project.scripts]
+quick-data-summary = "src.main:main"
+
+[tool.setuptools]
+packages = ["src"]

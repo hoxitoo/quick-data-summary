@@ -1,0 +1,7 @@
+order_id,customer,region,revenue,created_at
+1001,Alice,EU,120.5,2026-01-10
+1002,Bob,US,89.0,2026-01-10
+1003,Alice,EU,145.2,2026-01-11
+1004,Carla,UK,200.0,2026-01-11
+1005,David,US,,2026-01-12
+1006,Alice,EU,130.0,2026-01-12
